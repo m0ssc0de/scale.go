@@ -242,9 +242,9 @@ func (v *Vec) Init(data ScaleBytes, option *ScaleDecoderOption) {
 func (v *Vec) Process() {
 	elementCount := v.ProcessAndUpdateData("Compact<u32>").(int)
 	var result []interface{}
-	if elementCount > 50000 {
-		panic(fmt.Sprintf("Vec length %d exceeds %d with subType %s", elementCount, 50000, v.SubType))
-	}
+// 	if elementCount > 50000 {
+// 		panic(fmt.Sprintf("Vec length %d exceeds %d with subType %s", elementCount, 50000, v.SubType))
+// 	}
 	subType := v.SubType
 	for i := 0; i < elementCount; i++ {
 		result = append(result, v.ProcessAndUpdateData(subType))
