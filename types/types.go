@@ -247,10 +247,14 @@ func (v *Vec) Process() {
 	// 		panic(fmt.Sprintf("Vec length %d exceeds %d with subType %s", elementCount, 50000, v.SubType))
 	// 	}
 	subType := v.SubType
+	fmt.Printf("started elementCount: %d\n", elementCount)
 	for i := 0; i < elementCount; i++ {
-		fmt.Printf("len(result): %d\n", len(result))
+		if i%50000 == 0 {
+			fmt.Printf("i/elementCount: %d/%d\n", i, elementCount)
+		}
 		result = append(result, v.ProcessAndUpdateData(subType))
 	}
+	fmt.Printf("finished elementCount: %d\n", elementCount)
 	v.Value = result
 }
 
