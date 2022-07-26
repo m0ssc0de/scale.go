@@ -3,8 +3,8 @@ package scalecodec_test
 import (
 	"testing"
 
-	scalecodec "github.com/itering/scale.go"
-	"github.com/itering/scale.go/utiles"
+	scalecodec "github.com/m0ssc0de/scale.go"
+	"github.com/m0ssc0de/scale.go/utiles"
 )
 
 const (

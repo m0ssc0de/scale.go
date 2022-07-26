@@ -16,7 +16,7 @@ Scale Codec written by golang, reference from [polkascan/py-scale-codec](https:/
 ## Installation 
 
 ```bash
-go get -u github.com/itering/scale.go
+go get -u github.com/m0ssc0de/scale.go
 ```
 
 ## Test
@@ -28,12 +28,12 @@ go test ./... --cover -v
 ## Resources
 
 - [Subscan](https://www.subscan.io)
-- [Subscan Open-source](https://github.com/itering/subscan-essentials)
+- [Subscan Open-source](https://github.com/m0ssc0de/subscan-essentials)
 - [Polkadot.js](http://polkadot.js.org/)
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/itering/scale.go
+Bug reports and pull requests are welcome on GitHub at https://github.com/m0ssc0de/scale.go
 
 ## License
 

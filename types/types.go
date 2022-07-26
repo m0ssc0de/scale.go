@@ -14,9 +14,9 @@ import (
 	"unicode/utf8"
 
 	"github.com/huandu/xstrings"
-	"github.com/itering/scale.go/utiles"
-	"github.com/itering/scale.go/utiles/crypto/ethereum"
-	"github.com/itering/scale.go/utiles/uint128"
+	"github.com/m0ssc0de/scale.go/utiles"
+	"github.com/m0ssc0de/scale.go/utiles/crypto/ethereum"
+	"github.com/m0ssc0de/scale.go/utiles/uint128"
 	"github.com/shopspring/decimal"
 )
 

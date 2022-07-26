@@ -5,10 +5,10 @@ import (
 	"io/ioutil"
 	"testing"
 
-	"github.com/itering/scale.go"
-	"github.com/itering/scale.go/source"
-	"github.com/itering/scale.go/types"
-	"github.com/itering/scale.go/utiles"
+	"github.com/m0ssc0de/scale.go"
+	"github.com/m0ssc0de/scale.go/source"
+	"github.com/m0ssc0de/scale.go/types"
+	"github.com/m0ssc0de/scale.go/utiles"
 )
 
 func TestEventsDynamicOriginCallerDecoder(t *testing.T) {

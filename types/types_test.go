@@ -9,9 +9,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/itering/scale.go/source"
-	"github.com/itering/scale.go/types"
-	"github.com/itering/scale.go/utiles"
+	"github.com/m0ssc0de/scale.go/source"
+	"github.com/m0ssc0de/scale.go/types"
+	"github.com/m0ssc0de/scale.go/utiles"
 	"github.com/shopspring/decimal"
 	"github.com/stretchr/testify/assert"
 )

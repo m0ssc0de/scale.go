@@ -3,8 +3,8 @@ package scalecodec
 import (
 	"fmt"
 
-	scaleType "github.com/itering/scale.go/types"
-	"github.com/itering/scale.go/utiles"
+	scaleType "github.com/m0ssc0de/scale.go/types"
+	"github.com/m0ssc0de/scale.go/utiles"
 	"golang.org/x/crypto/blake2b"
 )
 
